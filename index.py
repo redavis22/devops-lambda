@@ -4,7 +4,7 @@ import datetime
 
 def handler(event, context):
     data = {
-        'output': 'Hello New Job!!!!',
+        'output': 'Hello World'+' New Job!!!!',
         'timestamp': datetime.datetime.utcnow().isoformat()
     }
     return {'statusCode': 200,
